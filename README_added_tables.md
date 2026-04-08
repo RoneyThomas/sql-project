@@ -24,6 +24,3 @@ Tables added to support all 10 business requirements:
   - sales_shipping              Carrier/tracking/status per order
 
 Queries for all 10 business requirements are in queries.sql.
-
-NOTE: Line 10 of sales_order_items.sql contains a typo "VALUFES" — fix to "VALUES"
-      before running that file or it will error on that row.
