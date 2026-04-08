@@ -1,0 +1,10 @@
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(1,1,'FedEx','FX100123456','Delivered',DATE '2016-01-03',DATE '2016-01-03');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(2,2,'UPS','1Z999AA10123456784','Delivered',DATE '2016-01-04',DATE '2016-01-03');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(3,3,'FedEx','FX100123789','Delivered',DATE '2016-01-05',DATE '2016-01-03');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(4,4,'USPS','9400111899223397909386','Delivered',DATE '2016-01-04',DATE '2016-01-05');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(5,5,'FedEx','FX100124001','Delivered',DATE '2016-01-06',DATE '2016-01-06');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(6,6,'UPS','1Z999AA10123456800','Delivered',DATE '2016-01-07',DATE '2016-01-05');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(7,7,'FedEx','FX100124200','Delivered',DATE '2016-01-07',DATE '2016-01-05');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(8,8,'USPS','9400111899223397909410','Delivered',DATE '2016-01-05',DATE '2016-01-05');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(9,9,'UPS','1Z999AA10123456820','Delivered',DATE '2016-01-08',DATE '2016-01-08');
+INSERT INTO sales_shipping(shipping_id, order_id, carrier, tracking_number, shipping_status, estimated_delivery, actual_delivery) VALUES(10,10,'FedEx','FX100124400','Delivered',DATE '2016-01-06',DATE '2016-01-06');

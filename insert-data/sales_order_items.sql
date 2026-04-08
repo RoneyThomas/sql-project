@@ -7,7 +7,7 @@ INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_pric
 INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUES(2,2,16,2,599.99,0.05);
 INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUES(3,1,3,1,999.99,0.05);
 INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUES(3,2,20,1,599.99,0.05);
-INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUFES(4,1,2,2,749.99,0.1);
+INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUES(4,1,2,2,749.99,0.1);
 INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUES(5,1,10,2,1549.00,0.05);
 INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUES(5,2,17,1,429.00,0.07);
 INSERT INTO sales_order_items(order_id, item_id, product_id, quantity, list_price,discount) VALUES(5,3,26,1,599.99,0.07);

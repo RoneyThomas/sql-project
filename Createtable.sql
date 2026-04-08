@@ -1,3 +1,5 @@
+ALTER SESSION SET NLS_DATE_FORMAT = 'YYYYMMDD';
+
 CREATE TABLE production_categories (
 	category_id INT PRIMARY KEY,
 	category_name VARCHAR (255) NOT NULL
@@ -122,4 +124,57 @@ CREATE TABLE sales_returns (
 	FOREIGN KEY (order_id) REFERENCES sales_orders (order_id),
 	FOREIGN KEY (product_id) REFERENCES production_products (product_id),
 	FOREIGN KEY (customer_id) REFERENCES sales_customers (customer_id)
+);
+
+-- Vendors: suppliers of products/brands
+CREATE TABLE production_vendors (
+	vendor_id INT PRIMARY KEY,
+	vendor_name VARCHAR (255) NOT NULL,
+	contact_name VARCHAR (255),
+	phone VARCHAR (25),
+	email VARCHAR (255),
+	city VARCHAR (100),
+	state VARCHAR (25),
+	active INT DEFAULT 1 NOT NULL
+);
+
+-- Links vendors to the brands they supply
+CREATE TABLE production_vendor_brands (
+	vendor_id INT,
+	brand_id INT,
+	PRIMARY KEY (vendor_id, brand_id),
+	FOREIGN KEY (vendor_id) REFERENCES production_vendors (vendor_id),
+	FOREIGN KEY (brand_id) REFERENCES production_brands (brand_id)
+);
+
+-- Shopping cart header
+CREATE TABLE sales_cart (
+	cart_id INT PRIMARY KEY,
+	customer_id INT NOT NULL,
+	created_date DATE DEFAULT SYSDATE,
+	FOREIGN KEY (customer_id) REFERENCES sales_customers (customer_id)
+);
+
+-- Shopping cart line items
+CREATE TABLE sales_cart_items (
+	cart_id INT,
+	product_id INT,
+	quantity INT NOT NULL,
+	added_date DATE DEFAULT SYSDATE,
+	PRIMARY KEY (cart_id, product_id),
+	FOREIGN KEY (cart_id) REFERENCES sales_cart (cart_id),
+	FOREIGN KEY (product_id) REFERENCES production_products (product_id)
+);
+
+-- Shipping / tracking per order
+CREATE TABLE sales_shipping (
+	shipping_id INT PRIMARY KEY,
+	order_id INT NOT NULL,
+	carrier VARCHAR (100),
+	tracking_number VARCHAR (100),
+	-- Statuses: Preparing, Shipped, In Transit, Delivered
+	shipping_status VARCHAR (50),
+	estimated_delivery DATE,
+	actual_delivery DATE,
+	FOREIGN KEY (order_id) REFERENCES sales_orders (order_id)
 );
