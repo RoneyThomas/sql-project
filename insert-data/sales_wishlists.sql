@@ -1,0 +1,10 @@
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(1,1,DATE '2026-04-01');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(2,2,DATE '2026-04-01');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(3,3,DATE '2026-04-02');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(4,4,DATE '2026-04-02');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(5,5,DATE '2026-04-03');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(6,6,DATE '2026-04-03');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(7,7,DATE '2026-04-04');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(8,8,DATE '2026-04-04');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(9,9,DATE '2026-04-05');
+INSERT INTO sales_wishlists(wishlist_id, customer_id, created_date) VALUES(10,10,DATE '2026-04-05');
