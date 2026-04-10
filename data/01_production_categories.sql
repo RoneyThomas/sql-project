@@ -1,0 +1,10 @@
+INSERT INTO production_categories (category_id, category_name) VALUES (1, 'Mountain Bikes');
+INSERT INTO production_categories (category_id, category_name) VALUES (2, 'Road Bikes');
+INSERT INTO production_categories (category_id, category_name) VALUES (3, 'Hybrid Bikes');
+INSERT INTO production_categories (category_id, category_name) VALUES (4, 'Electric Bikes');
+INSERT INTO production_categories (category_id, category_name) VALUES (5, 'BMX Bikes');
+INSERT INTO production_categories (category_id, category_name) VALUES (6, 'Cycling Helmets');
+INSERT INTO production_categories (category_id, category_name) VALUES (7, 'Cycling Apparel');
+INSERT INTO production_categories (category_id, category_name) VALUES (8, 'Bike Accessories');
+INSERT INTO production_categories (category_id, category_name) VALUES (9, 'Bike Components');
+INSERT INTO production_categories (category_id, category_name) VALUES (10, 'Kids Bikes');

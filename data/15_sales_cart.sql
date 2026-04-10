@@ -1,0 +1,10 @@
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (1,  2, DATE '2024-02-01');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (2,  4, DATE '2024-02-08');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (3,  6, DATE '2024-02-15');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (4,  8, DATE '2024-02-22');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (5, 10, DATE '2024-03-01');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (6, 12, DATE '2024-03-08');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (7, 14, DATE '2024-03-15');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (8, 16, DATE '2024-03-22');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (9, 18, DATE '2024-03-28');
+INSERT INTO sales_cart (cart_id, customer_id, created_date) VALUES (10,20, DATE '2024-04-02');

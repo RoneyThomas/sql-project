@@ -1,0 +1,10 @@
+INSERT INTO production_brands (brand_id, brand_name) VALUES (1, 'Trek');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (2, 'Specialized');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (3, 'Giant');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (4, 'Cannondale');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (5, 'Scott');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (6, 'Bianchi');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (7, 'Santa Cruz');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (8, 'Cervelo');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (9, 'Orbea');
+INSERT INTO production_brands (brand_id, brand_name) VALUES (10, 'Cube');

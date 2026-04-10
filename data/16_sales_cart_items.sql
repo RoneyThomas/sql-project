@@ -1,0 +1,17 @@
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (1,  3,  1, DATE '2024-02-01');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (1, 16,  1, DATE '2024-02-02');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (2,  8,  1, DATE '2024-02-08');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (3,  5,  2, DATE '2024-02-15');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (3, 19,  1, DATE '2024-02-16');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (4, 11,  1, DATE '2024-02-22');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (5, 14,  1, DATE '2024-03-01');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (5,  2,  1, DATE '2024-03-02');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (6,  7,  1, DATE '2024-03-08');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (7, 13,  1, DATE '2024-03-15');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (7, 18,  1, DATE '2024-03-16');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (8,  1,  1, DATE '2024-03-22');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (8, 20,  1, DATE '2024-03-23');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (9, 15,  1, DATE '2024-03-28');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (9,  4,  1, DATE '2024-03-29');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (10, 6,  2, DATE '2024-04-02');
+INSERT INTO sales_cart_items (cart_id, product_id, quantity, added_date) VALUES (10,17,  1, DATE '2024-04-03');

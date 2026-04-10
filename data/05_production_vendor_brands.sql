@@ -1,0 +1,15 @@
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (1, 1);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (1, 2);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (2, 2);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (2, 3);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (3, 4);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (3, 5);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (4, 6);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (4, 7);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (5, 8);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (5, 9);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (6, 10);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (7, 1);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (7, 3);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (8, 5);
+INSERT INTO production_vendor_brands (vendor_id, brand_id) VALUES (8, 9);

@@ -1,0 +1,15 @@
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (1,   1, DATE '2023-02-10');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (2,   2, DATE '2023-02-15');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (3,   3, DATE '2023-03-05');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (4,   5, DATE '2023-03-22');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (5,   7, DATE '2023-04-14');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (6,   8, DATE '2023-05-01');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (7,  10, DATE '2023-06-18');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (8,  12, DATE '2023-07-07');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (9,  14, DATE '2023-08-19');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (10, 16, DATE '2023-09-03');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (11, 18, DATE '2023-10-12');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (12, 20, DATE '2023-11-25');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (13,  4, DATE '2023-12-08');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (14,  6, DATE '2024-01-14');
+INSERT INTO sales_wishlists (wishlist_id, customer_id, created_date) VALUES (15,  9, DATE '2024-02-20');

@@ -33,9 +33,9 @@ ORDER BY p.list_price;
 
 -- 2a. Add item to cart (cart must already exist; change values as needed)
 INSERT INTO sales_cart_items(cart_id, product_id, quantity, added_date)
-VALUES(1, 22, 1, SYSDATE);
+VALUES(1, 5, 1, SYSDATE);
 
--- 2b. View cart for customer_id = 1
+-- 2b. View cart for customer_id = 2
 SELECT
     ci.cart_id,
     c.first_name || ' ' || c.last_name      AS customer_name,
@@ -48,17 +48,17 @@ FROM sales_cart        sc
 JOIN sales_customers    c  ON sc.customer_id = c.customer_id
 JOIN sales_cart_items   ci ON sc.cart_id     = ci.cart_id
 JOIN production_products p  ON ci.product_id = p.product_id
-WHERE sc.customer_id = 1
+WHERE sc.customer_id = 2
 ORDER BY ci.added_date;
 
 -- 2c. Update quantity of a product already in the cart
 UPDATE sales_cart_items
-SET    quantity = 3
-WHERE  cart_id = 1 AND product_id = 4;
+SET    quantity = 2
+WHERE  cart_id = 1 AND product_id = 3;
 
--- 2d. Remove a specific item from the cart
+-- 2d. Remove a specific item from the cart (removes what was added in 2a)
 DELETE FROM sales_cart_items
-WHERE  cart_id = 1 AND product_id = 22;
+WHERE  cart_id = 1 AND product_id = 5;
 
 
 -- ============================================================
@@ -99,7 +99,7 @@ SELECT
 FROM sales_orders    o
 JOIN sales_customers  c ON o.customer_id  = c.customer_id
 JOIN sales_shipping   s ON o.order_id     = s.order_id
-WHERE o.customer_id = 259
+WHERE o.customer_id = 1
 ORDER BY o.order_date DESC;
 
 
@@ -231,7 +231,7 @@ ORDER BY wi.added_date DESC;
 
 -- 10a. Submit a return request
 INSERT INTO sales_returns(return_id, order_id, product_id, customer_id, return_date, reason, refund_amount, status)
-VALUES(11, 11, 5, 6, SYSDATE, 'Defective product', 599.99, 'Pending');
+VALUES(11, 22, 19, 3, SYSDATE, 'Defective product', 279.99, 'Pending');
 
 -- 10b. Approve a return and mark as refunded
 UPDATE sales_returns
